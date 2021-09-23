@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="C:\Users\admin\Desktop\Sem - 2\W.T\FINAL-PROJECT\images\Divine.png"
+        type="image/x-icon">
+    <title>Divine Arts</title>
+</head>
+<style>
+    .body {
+        background-color: #8f7d4e;
+    }
+
+    .img {
+        float: left;
+        width: 1800px;
+        height: 853px;
+        background-color: #8f7d4e;
+    }
+    .submit {
+        color: #8f7d4e;
+        border: none;
+        padding: 0px;
+    }
+</style>
+
+<body class="body">
+    <div>
+        <div class="padd"></div>
+        <button type="submit" class="submit" onclick="EntryKey()" id='password' type="password"><a
+                href="C:\Users\admin\Desktop\Sem - 2\W.T\FINAL-PROJECT\F.P.html"><img
+                    src="C:\Users\admin\Desktop\Sem - 2\W.T\FINAL-PROJECT\images\entry-logo-wel-gif.gif"
+                    class="img"></a></button>
+    </div>
+</body>
+<script>
+    var Password
+    var Valid_key = "Divine Arts";
+    function EntryKey() {
+        // document.getElementById("password").value;
+        var Password = prompt("Enter Your Valid Entry Key");
+        return document.getElementById("password").value;
+        if (Password == Valid_key) {
+            prompt("You have entered valid key!!!,Enjoy");
+        }
+        else {
+            prompt("Please enter valid key!!!");
+        }
+    }
+</script>
+
+</html>

@@ -1,0 +1,212 @@
+/* classes are defined on the basis of no. sequences alphabetically* */
+.body{
+    background-color:lightgoldenrodyellow;
+}
+.extra-padd{
+    color:black;
+    background-color:#e8e4d9;
+    height:10px;
+    border-style:double;
+    border-top:none;
+    border-bottom:none;
+}
+.headish{
+    color:#e8e4d9;
+}
+.one{
+    /* in paragraph 1 */
+    background-color:#e8e4d9;
+    /* align:right; */
+    /* padding-left: 300px; */
+    padding-bottom: 30px;
+    border-style: double;
+    border-top:30px;
+    border-bottom:30px;   
+}
+/*.head-padd{
+    height:50px;
+    width:50px;
+    background-color:#e8e4d9;
+    color:#e8e4d9;
+}*/
+.two{
+    /* in body h2 (1) */
+    background-color:#e8e4d9;
+    width:375px;
+    height:200px;
+    align-items: left;
+}
+.three{
+    /* float:; */
+    padding: 20px;
+}
+.four{
+    /* in para 1 home link*/
+    /* image: C:\Users\admin\Desktop\Sem - 2\W.T\FINAL-PROJECT\images\home-button-img; */
+    padding-left:20px;
+    padding-right:15px;
+    color:black;
+    font-size:25px;
+    border-style:double;
+    /* padding-bottom:25px; */
+    background-color:#e8e4d9;
+    text-decoration-line:none ;
+    padding-top:-50%;
+    transition-property: background-color,color;
+    transition-duration: 1s,1s;
+    transition-delay: 0.25s;
+}
+.four:hover{
+    color:#e8e4d9;
+    background-color:black;
+    /* padding-right:10px; */
+}
+.five{
+    padding: 500px; 
+}
+/* .five{
+    background-image: "home-img1.jpg";
+} */
+/* .sixanime{
+    /* transition: ; */
+.padding{
+    background-color:lightgoldenrodyellow;
+    height:100px;
+    float:bottom;
+    /* padding-top:100px; */
+}
+.sale-padd{
+    color:lightgoldenrodyellow;
+    font-size:5px;
+    /* padding-top:10px; */
+}
+.sale-top-bottom-padd{
+    height:10px;
+    color:#B68D40;
+    background-color: #B68D40;
+    font-size: 0px;
+}
+.sale{
+    background-color:#B68D40;
+    height:200px;
+    border-color:skyblue;
+    border-style:dashed;
+    border-left:none;
+    border-right:none;
+    /* border-style: inherit; */
+    padding-top:10px;
+    font-size:100px;
+    padding-bottom:20px;
+    transition-property:background-color;
+    transition-duration:1s,1s;
+    transition-delay:0.95s;
+}
+.sale:hover{
+    background-color:#D6AD60;
+}
+.sale-middle{
+    font-size:100px;
+    padding-left:15px;
+    color:skyblue;
+}
+.sale-star{
+    font-size:50px;
+    color:#122620;
+}
+/* marquee */
+.marquee-img{
+    padding-top:10px;
+    width:500px;
+    height:300px;
+    padding-right:20px;
+}
+/* Table */
+tr{
+    padding:100px;
+}
+td{
+    padding:120px;
+    font-size:30px;
+    font-family:'Times New Roman', Times, serif;
+}
+.table-img-1{
+    /* padding-top:40px; */
+    /* padding:250px; */
+    height:300px;
+    width:170px;
+    box-sizing:300px ;
+    box-shadow:rgba(0, 0, 0, 0.15) 5px 1.95px 30px;
+    transition-property:width,height;
+    transition-duration:1s,1s;
+    transition-delay:none;
+    /* border-radius: 30px; */
+}
+.table-img:hover{
+    height:310px;
+    width:180px;
+}
+.table-img-2{
+    /* padding-top:40px; */
+    /* padding:250px; */
+    height:180px;
+    width:250px;
+    box-sizing:300px ;
+    box-shadow:rgba(0, 0, 0, 0.15) 5px 1.95px 30px;
+    transition-property:width,height;
+    transition-duration:1s,1s;
+    transition-delay:none;
+    /* border-radius: 30px; */
+}
+.table-img-2:hover{
+    height:190px;
+    width:260px;
+}
+
+/* footer */
+.footer{
+     background-color: #e8e4d9;
+     border-style:double;
+     border-left:none;
+     border-right:none;
+     border-top:none;
+     height:130px;
+    float:bottom;
+    /* padding-bottom:10px; */ 
+}
+.br{
+    padding:100px;
+}
+.footer-img{
+    padding:5px;
+    width:120px;
+    height:120px;
+    float:left;
+}
+.symb1{
+    height:35px;
+    width:35px;
+    /* float:right; */
+    padding-right:10px;
+}
+.fb{
+    float:right;
+    padding-right:50px;
+    padding-top:15px;
+    font-size:25px;
+    /* background-color:#cfc7af; */
+    /* text-decoration-line: none;
+    color:black; */   
+}
+.fb-text{
+    color:black;
+    text-decoration-line: none;
+    /* padding-top:10px; */
+    padding-bottom:10px;
+    /* background-color:#cfc7af; */
+    padding-right:10px;
+    padding-left:10px;
+}
+.copyright{
+    color:grey;
+    float:left;
+}

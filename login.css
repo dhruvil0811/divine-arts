@@ -1,0 +1,99 @@
+body{
+    background-color: lightgoldenrodyellow; 
+     
+     /* background-image:url("C:\Users\admin\Desktop\Sem - 2\W.T\FINAL-PROJECT\images\login-bg-pic.jfif"); */
+}
+    .div1{
+        width: 100px;
+        height: 100px;
+        /* background-color: white; */
+        /* color:#e6ffe6; */
+    }
+    .div{
+        background-color: #e8e4d9;
+        width:550px;
+        height: 550px;
+        text-align: center;
+        float:right;
+        /* padding-right: 100px; */
+        border-style: double;
+        border-radius: 10px;
+        
+        /* paddng-left:250px; */
+
+    }
+    .img{
+        width:300px;
+        height:150px;
+    }
+    .div2{
+        /* background-color:#e6ffe6; */
+        width:550px;
+        height:550px;
+        float:right;
+    }
+    .submit{
+        background-color:#e8e4d9;
+        width:100px;
+        height:40px;
+        border-style: double;
+    }
+    .register{
+        font-size:large;
+    }
+.padding{
+    background-color:lightgoldenrodyellow;
+    height:600px;
+    float:bottom;
+    /* padding-top:100px; */
+}
+.footer{
+     background-color: #e8e4d9;
+     border-style:double;
+     border-left:none;
+     border-right:none;
+     border-top:none;
+     height:130px;
+    float:bottom;
+    /* padding-bottom:10px; */ 
+}
+.br{
+    padding:100px;
+}
+.footer-img{
+    padding:5px;
+    width:120px;
+    height:120px;
+    float:left;
+}
+.symb1{
+    height:35px;
+    width:35px;
+    /* float:right; */
+    padding-right:10px;
+}
+.fb{
+    float:right;
+    padding-right:50px;
+    padding-top:15px;
+    font-size:25px;
+    /* background-color:#cfc7af; */
+    /* text-decoration-line: none;
+    color:black; */   
+}
+.fb-text{
+    color:black;
+    text-decoration-line: none;
+    /* padding-top:10px; */
+    padding-bottom:10px;
+    /* background-color:#cfc7af; */
+    padding-right:10px;
+    padding-left:10px;
+    
+}
+.copyright{
+    color:grey;
+    float:left;
+}
+
+
